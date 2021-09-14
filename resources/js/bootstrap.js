@@ -22,7 +22,7 @@ window.Pusher = require('pusher-js');
 
 window.Echo = new Echo({
     broadcaster: 'pusher',
-    key: "6b415f2c7019e005a229",
-    cluster: "ap2",
+    key: "***your pusher ****",
+    cluster: "**your cluster***",
     forceTLS: true
 });
